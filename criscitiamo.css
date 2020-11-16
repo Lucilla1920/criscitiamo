@@ -1,0 +1,23 @@
+html, body{  
+    height: 100%;
+    width: 100% ;
+    background-color: rgb(253, 252, 249);
+    
+
+    font-family: 'ABeeZee', sans-serif;
+    font-weight: 400;  color: #000;
+    
+
+    
+}
+.nav-link {
+  font-family: 'ABeeZee', sans-serif;
+  font-weight: 400;
+  color: #000;
+}
+
+.navbar-nav {
+  box-sizing: border-box;
+  margin-left: 150px;
+}
+
