@@ -1,8 +1,8 @@
-html, body{  
+html, body {  
     height: 100%;
     width: 100% ;
-    background-color:rgb(255, 204, 102);
-    padding-top: 70px;
+    background-color:rgb(243, 240, 234);
+    
     
 
     font-family: 'ABeeZee', sans-serif;
@@ -12,10 +12,20 @@ html, body{
     .container-fluid{
       padding-right: 0%;
       padding-left: 0%;
+      padding-top: 70px;
+
     }
 .container{
   padding-top: 70px;
+  justify-content: center;
+  
 }
+
+.navbar-collapse{
+  justify-content: center;
+}
+
+
 
 .nav-link {
   font-family: 'ABeeZee', sans-serif;
@@ -25,16 +35,39 @@ html, body{
 }
 
 
+
+
+
 .carousel-indicators li{
   border-radius: 12px;
     width: 12px;
     height: 12px;
-    background-color: #f0cf12;
+    background-color: white;
 
 }
 
 
 
+
+
 .card-deck {
   padding-top: 30px;
+}
+
+.card{
+  border: none;
+}
+
+
+.page-footer{
+ 
+
+  background-color: white;
+  
+}
+
+
+
+a{
+  color: #000;
 }
